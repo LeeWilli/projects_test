@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "projects_test"
+  site-url: "https://LeeWilli.github.io/projects_test"
+  description: "testing codes for each project"
+  repo-branch: main
+  repo-url: "https://github.com/LeeWilli/projects_test"
