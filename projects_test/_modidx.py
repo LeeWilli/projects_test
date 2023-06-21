@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://LeeWilli.github.io',
                 'git_url': 'https://github.com/LeeWilli/projects_test',
                 'lib_path': 'projects_test'},
-  'syms': {'projects_test.core': {'projects_test.core.foo': ('core.html#foo', 'projects_test/core.py')}}}
+  'syms': { 'projects_test.core': { 'projects_test.core.Number': ('core.html#number', 'projects_test/core.py'),
+                                    'projects_test.core.Number.__add__': ('core.html#number.__add__', 'projects_test/core.py'),
+                                    'projects_test.core.Number.__init__': ('core.html#number.__init__', 'projects_test/core.py'),
+                                    'projects_test.core.Number.__repr__': ('core.html#number.__repr__', 'projects_test/core.py')}}}
