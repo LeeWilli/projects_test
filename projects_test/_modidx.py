@@ -8,4 +8,5 @@ d = { 'settings': { 'branch': 'main',
   'syms': { 'projects_test.core': { 'projects_test.core.Number': ('core.html#number', 'projects_test/core.py'),
                                     'projects_test.core.Number.__add__': ('core.html#number.__add__', 'projects_test/core.py'),
                                     'projects_test.core.Number.__init__': ('core.html#number.__init__', 'projects_test/core.py'),
-                                    'projects_test.core.Number.__repr__': ('core.html#number.__repr__', 'projects_test/core.py')}}}
+                                    'projects_test.core.Number.__repr__': ('core.html#number.__repr__', 'projects_test/core.py'),
+                                    'projects_test.core.say_hello': ('core.html#say_hello', 'projects_test/core.py')}}}
