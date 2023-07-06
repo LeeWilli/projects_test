@@ -8,15 +8,24 @@ documentation.
 ## Install
 
 ``` sh
-pip install projects_test
+git clone 'git@github.com:LeeWilli/projects_test.git'
+cd projects_test
+python setup.py install
 ```
 
 ## How to use
 
-Fill me in please! Don’t forget code examples:
+1.  启动 jupyter notebook.
 
-``` python
-1+1
+``` sh
+jupyter notebook
 ```
 
-    2
+如果没有可以安装
+
+``` sh
+pip install jupyter
+```
+
+2.  测试心率等生理指标
+    打开’01_heart.ipynb’,修改video_path为所要测试视频，再全部执行。
