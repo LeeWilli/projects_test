@@ -6,7 +6,7 @@ __all__ = ['video_path', 'server_ip', 'hr_server_url', 'send_frame', 'detect_pul
 # %% ../nbs/01_heart.ipynb 2
 # the sample is from http://git.xinktech.com/yscz/alg/hr_detect_server/uploads/81dac5cbf6904113c61dee9305e9eada/sample.mp4
 video_path = "/home/wangli/projects/hr_detect_server/sample.mp4"
-server_ip = "localhost:8293"  # ip and port of the server.
+server_ip = "localhost:8299"  # ip and port of the server.
 hr_server_url = "http://{}/".format(server_ip)  # url of the server.
 
 # %% ../nbs/01_heart.ipynb 4
