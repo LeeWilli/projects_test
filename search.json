@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "projects_test",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "projects_test",
+    "section": "Install",
+    "text": "Install\ngit clone 'git@github.com:LeeWilli/projects_test.git'\ncd projects_test\npython setup.py install"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "projects_test",
+    "section": "How to use",
+    "text": "How to use\n\n启动 jupyter notebook.\n\njupyter notebook\n如果没有可以安装\npip install jupyter\n\n测试心率等生理指标 打开’01_heart.ipynb’,修改video_path为所要测试视频，再全部执行。"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "Notebook Best Practices",
+    "section": "",
+    "text": "class Color:\n    def __init__(self, color):\n        self.color = color\n\n    def _repr_markdown_(self):\n        style = (\n            f\"background-color: {self.color}; width: 50px; height: 50px; margin: 10px\"\n        )\n        return f'&lt;div style=\"{style}\"&gt;&lt;/div&gt;'\n\n\nColor(\"green\")\ndef inc(x):\n    return x + 1\n\n\ntest_eq(inc(3), 4)\n\n\ndef divide(x, y):\n    return x / y\n\n\ntest_fail(lambda: divide(1, 0), contains=\"division by zero\")"
+  },
+  {
+    "objectID": "core.html#all-together",
+    "href": "core.html#all-together",
+    "title": "Notebook Best Practices",
+    "section": "All together",
+    "text": "All together\n\nclass MyArray(np.ndarray):\n    def all(self, axis=None, out=None):\n        ...\n\n\nx = [[True, False], [True, True]]\ny = MyArray((2, 2))\ny[:] = x\nnp.all(y)  # No TypeError since `keepdims` isn't passed\ntest_fail(\n    lambda: np.all(y, keepdims=True),\n    contains=\"all() got an unexpected keyword argument 'keepdims'\",\n)\n\n\n\nsay_hello\n\n say_hello (to)\n\nSay hello to somebody\n\nsay_hello(\"Isaac\")\n\n'Hello Isaac!'"
+  }
+]
